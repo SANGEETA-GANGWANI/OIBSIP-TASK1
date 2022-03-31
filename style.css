@@ -1,0 +1,354 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(images/7.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    top:0;
+    width:100%;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position:relative;
+    color:brown;
+    font-size: 43px;
+    text-decoration: none;
+    font-weight: 900px;
+    letter-spacing: 1px;
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    padding:2px 30px;
+    font-size: 20px;
+}
+.navbar a:hover{
+   color:brown;
+   transition: 0.3s;
+   transition-property:color;
+}
+.content{
+    width: 650px; 
+    margin: 60px 100px;
+}
+.content h2{
+    color:rgb(4, 121, 30);
+    font-size:55px;
+    font-weight:800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+.content h2 span{
+    color:rgb(3, 68, 17);
+    font-size: 52px;
+    font-weight: 600px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.more{
+    color:rgb(243, 237, 237);
+    background-color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding:10px 20px;
+}
+.more:hover{
+   background-color:rgb(4, 121, 30);;
+   transition: 0.3s;
+   transition-property: background-color;
+}
+.form{
+    opacity: 0.90;
+    width:280px;
+    height: 380px;
+    background: linear-gradient(to top,rgb(0,0,0,8)50%,rgb(0, 0, 0,8)50%);
+    position:relative;
+    bottom: 150px;
+    left:1000px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    color: brown;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid brown;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top:30px;
+    font-family: sans-serif;
+} 
+.btn {
+    width: 230px;
+    height: 40px;
+    font-size: 25px;
+    background-color: brown;
+    color:white;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.btn a:hover{
+    color:black;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-align: center;
+    text-decoration: none;
+    color:brown;
+}
+.form .link a:hover{
+    color:rgb(250, 123, 123);
+}
+.frame1{
+    background-color:rgb(216, 232, 236);
+    padding: 40px 40px;
+}
+.frame1 .A1{
+   background-color:white;
+   padding:40px 40px;
+   margin: 20px;
+   border-radius: 30px;
+   width: 20%;
+   box-sizing: border-box;
+   display: inline-block;
+}
+.frame1 h1{
+    letter-spacing: 2px;
+}
+.frame1 h2{
+    letter-spacing: 1px;
+    text-align: center;
+}
+.frame1 .img{
+  display: block;
+  margin: auto;
+}
+.frame2{
+    background-color:white;
+}
+.frame2 #top{
+    text-align: center;
+    margin:30px;
+    letter-spacing:2px;
+}
+.frame2 .A2{
+    background-color:antiquewhite;
+    border:2px solid black;
+    padding: 40px 40px;
+    margin:20px;
+    border-radius: 10px;
+    width:300px;
+    height: 350px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+}
+.frame2 h2{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.frame2 h5{
+    text-align: right;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.frame2 .pic{
+    text-align: center;
+    width: 250px;
+    border-radius: 4px;
+    padding-right: 20px;
+}
+.box1{
+    margin-left: 220px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+ }
+.frame3 {
+   background-color: rgb(25, 27, 21);
+   height: 560px;
+  }
+.frame3 h1{
+    color: white;
+    text-align: center;
+    padding-top: 16px ;
+}
+.contact-left h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+.box{
+    position:relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    padding: 30px;
+ }
+.box .contact-left{
+    flex:60%;
+    height: 400px;
+    padding: 20px 10px;
+}
+.box .contact-right{
+    flex:40%;
+    border-radius: 20px;
+    background-color: white;
+    height: 360px;
+    padding: 40px;
+}
+.input-box input{
+    width: 250px;
+    height: 30px; 
+}
+.input{
+    color: rgb(253, 247, 247);
+    position: relative;
+    width: 100%;
+    margin: 20px;
+}
+.input .row{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.input .column{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.input-box{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top:30px;
+    font-family: sans-serif;
+}
+.btrn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(245, 239, 239);
+    color:white;
+    border: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer; 
+  }
+.btrn a{
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+    font-weight: bold;
+  }
+.btrn a:hover{
+    color:rgb(66, 70, 58);
+  }
+.contact-right h2{
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    text-align: center;
+  }
+.contact-right table{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+  }
+tr td:first-child{
+    padding-right: 20px;
+  }
+
+tr td{
+    padding-top: 35px;
+  }
+.social-icons{
+    display: flex;
+    margin: 20px;
+    padding-left: 10px;
+    padding-top: 10px;  
+  }
+.social-icons li{
+    margin: auto;
+    list-style: none;
+    flex-direction: column;
+  }
+.social-icons img{
+    width: 50px;
+    height: 50px; 
+  }
+.last{
+    height: 50px;
+    width: 100%;
+    background:white;
+}
+.last1{
+    font-weight:bold;
+    color: rgb(14, 9, 9);
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-align: center;padding-top: 15px;
+}
+
+  
+
+
+
+
+  
+
+    
